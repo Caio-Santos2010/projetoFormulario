@@ -36,3 +36,16 @@ textarea {
     height: 160px;
     padding: 20px;
 }
+
+.cabecalho h3 {
+    color: rgb(115, 62, 165);
+    margin-top: 0;
+}
+
+.form-container {
+    background-color: rgb(255, 116, 2);
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
+}
