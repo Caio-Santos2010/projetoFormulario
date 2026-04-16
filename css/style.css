@@ -8,6 +8,19 @@
 body {
    background-color: rgb(12, 97, 255);
 }
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(255, 0, 221);
+
+p, label {
+    color: rgb(90, 16, 109);
+ }
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
 
 .cabecalho {
   background-color: azure;
