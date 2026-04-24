@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+   background-color: rgb(186, 158, 236);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(186, 158, 236);
+
+p, label {
+    color: rgb(186, 158, 236);
+ }
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+.cabecalho {
+  background-color: azure;
+    color: rgb(0, 0, 0);
+    height: 160px;
+    padding: 20px;
+}
+
+.cabecalho h3 {
+    color: rgb(186, 158, 236);
+    margin-top: 0;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
+}
+
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #eee5e5;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: crimson;
+}
+
+.caixaInputs {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.caixaOpcional {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.caixaOpicional li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    background-color: blueviolet;
+    color: #ccc;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: darkorchid;
+    color: aquamarine;
+    border-color: blueviolet;
+}
+
+hr {
+    margin-bottom: 20px;
+    color: #5f97c5;
+    border: 2px solid;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #355977, transparent);
+    margin: 20px 0;
+}
