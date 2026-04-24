@@ -117,3 +117,8 @@ textarea {
     color: aquamarine;
     border-color: blueviolet;
 }
+
+hr {
+    margin-bottom: 20px;
+    color: #5f97c5;
+}
