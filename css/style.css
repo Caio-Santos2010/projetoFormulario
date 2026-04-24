@@ -6,13 +6,13 @@
 }
 
 body {
-   background-color: rgb(78, 112, 75);
+   background-color: rgb(255, 255, 255);
 }
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(40, 163, 194);
+    color: rgb(255, 255, 255);
 
 p, label {
-    color: rgb(107, 146, 219);
+    color: rgb(255, 255, 255);
  }
 }
 
@@ -43,7 +43,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(77, 84, 180);
+    background-color: rgb(255, 255, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -57,7 +57,7 @@ textarea {
 }
 
 .form-header {
-    color: rgb(158, 36, 101);
+    color: rgb(255, 255, 255);
     border-bottom: 1px solid #eee5e5;
     width: 100%;
     text-align: center;
