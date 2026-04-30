@@ -49,3 +49,4 @@ window.onload = function () {
         adicionarNaTela(carro);
     });
 }
+localStorage.clear();
