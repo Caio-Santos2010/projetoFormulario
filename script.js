@@ -34,7 +34,7 @@ function adicionarNaTela(carro) {
 
     card.innerHTML = `
     <h3>${carro.titulo}</h3>
-    <img src = "https://i.redd.it/f8tre7uklyq71.jpg">
+    <img src = "//i.redd.it/f8tre7uklyq71.">
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
     <p><strong>Marca:</strong> R$ ${carro.marca}</p>
     <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
