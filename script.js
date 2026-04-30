@@ -34,7 +34,7 @@ function adicionarNaTela(carro) {
 
     card.innerHTML = `
     <h3>${carro.titulo}</h3>
-    <img src = "https://picsum.photos/250/150?random = ${Math.random()}">
+    <img src = "https://wallpapers.com/images/hd/johnny-sins-wacky-selfie-qkwwxm0y83pqf8jp.jpg">
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
     <p><strong>Marca:</strong> R$ ${carro.marca}</p>
     <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
@@ -51,3 +51,4 @@ window.onload = function () {
         adicionarNaTela(carro);
     });
 }
+//<img src = "https://picsum.photos/250/150?random = ${Math.random()}">
