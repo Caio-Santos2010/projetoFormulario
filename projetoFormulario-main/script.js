@@ -38,4 +38,6 @@ function adicionarNaTela(carro) {
     <p><strong>Preço:</strong> R$ ${carro.marca}</p>
     <p><strong>Preço:</strong> R$ ${carro.modelo}</p>
     <p><strong>Preço:</strong> R$ ${carro.cambio}</p>`
+
+    lista.appendChild(card);
 }
