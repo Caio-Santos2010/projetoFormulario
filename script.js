@@ -34,7 +34,7 @@ function adicionarNaTela(carro) {
 
     card.innerHTML = `
     <h3>${carro.titulo}</h3>
-    <img src = "//img2.lovecell.com.br/ce4af3d854aaff2b5fb21af13aab29644b51bc891d75f39adaa9ba1ad262e448">
+    <img src = "https://upload.wikimedia.org/wikipedia/pt/9/9c/George_Floyd.png.">
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
     <p><strong>Marca:</strong> R$ ${carro.marca}</p>
     <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
@@ -59,6 +59,7 @@ function excluirCarro(id) {
     carros = carros.filter(carro => carro.id !== id);
     localStorage.setItem('carros', JSON.stringify(carros));
     document.getElementById('listaCarros').innerHTML ="";
+    carros.forEach(carro => adicionarNaTela(carro));
 }
 
 //<img src = "https://picsum.photos/250/150?random = ${Math.random()}">
