@@ -61,5 +61,5 @@ function excluirCarro(id) {
     document.getElementById('listaCarros').innerHTML ="";
     carros.forEach(carro => adicionarNaTela(carro));
 }
-
+localStorage.clear();
 //<img src = "">
